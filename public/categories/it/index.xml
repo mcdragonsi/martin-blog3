@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IT on Martin&#39;s Blog 3</title>
+    <link>https://blog3.mcdowell.si/categories/it/</link>
+    <description>Recent content in IT on Martin&#39;s Blog 3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Nov 2010 21:26:15 +0000</lastBuildDate><atom:link href="https://blog3.mcdowell.si/categories/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My GMail account hacked by 115.52.213.93</title>
+      <link>https://blog3.mcdowell.si/post/2010/my-gmail-account-hacked-by-115-52-213-93/</link>
+      <pubDate>Tue, 23 Nov 2010 21:26:15 +0000</pubDate>
+      
+      <guid>https://blog3.mcdowell.si/post/2010/my-gmail-account-hacked-by-115-52-213-93/</guid>
+      <description>Unfortunately my GMail account martin [dot] mcdowell got somehow hacked today and someone (or something) in China sent a spam message to all my 119 e-mail contacts in my address book at 15.35 this afternoon. The IP address the hack originated from was 115.52.213.93 and is assigned to the Chinese ISP CNC Group CHINA169.
+It looks like there was a Google-wide attack as their systems crashed. There are several reports of hacked accounts on Google forums.</description>
+    </item>
+    
+  </channel>
+</rss>

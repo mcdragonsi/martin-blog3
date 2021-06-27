@@ -1,3 +1,87 @@
-baseURL = "http://blog3.mcdowell.si"
-languageCode = "en-us"
+## baseurl = "/"
+baseurl = "https://blog3.mcdowell.si/"
 title = "Martin's Blog 3"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "Mainroad"
+enableInlineShortcodes = true
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "UA-3561361-8" # Enable Google Analytics by entering your tracking id
+
+[Author]
+  name = "Martin"
+  bio = "From a Slovenian living in Herefordshire"
+  avatar = "img/Martin-kili2.jpg"
+
+[Params]
+  description = "Martin's Blog 3" # Description of your site
+  opengraph = true
+  twitter_cards = false
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true
+  pager = true
+  post_meta = ["date", "categories"] # Order of post meta information
+  copyright = "Martin McDowell" # Footer copyright holder, otherwise will use site title
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
+
+[Params.logo]
+  subtitle = "From a Slovenian living in Herefordshire" # Logo subtitle
+  image = "img/Martin-kili2.jpg"
+  title = "Martin's Blog 3"
+
+[Params.style.vars]
+  highlightColor = "#D38412" # Override highlight color
+
+  # Override font-family sets. Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  #fontFamilyPrimary = "'Open Sans', Helvetica, Arial, sans-serif"
+  #fontFamilySecondary = "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+ 
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories"]
+
+[Params.widgets]
+  recent_num = 3 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+  
+[menu]
+
+ [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/"
+    weight = -500
+    
+ [[menu.main]]
+    name = "Kilimanjaro 2019"
+    post = ""
+    pre = "<i class='fa fa-road'></i>"
+    url = "/categories/Kilimanjaro-2019/"
+    weight = -400
+    
+ [[menu.main]]
+    name = "About me"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -100
+
+  [[menu.main]]
+    name = "Bike trip round the USA 2013"
+    post = ""
+    pre = "<i class='fa fa-road'></i>"
+    url = "/categories/bike-trip-round-the-usa-2013/"
+    weight = -200
+    
+  [[menu.main]]
+    name = "Carriacou 2015"
+    post = ""
+    pre = "<i class='fa fa-road'></i>"
+    url = "/categories/Carriacou-2015/"
+    weight = -300
+
